@@ -5,7 +5,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 import re
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 
-TOKEN = "8531259676:AAG2gX9g0QL2WVoFW9LS8SzI9lcind6YZ1Y"
+TOKEN = ""
 bot = telebot.TeleBot(TOKEN)
 
 # ---------------- USER STATES ----------------
