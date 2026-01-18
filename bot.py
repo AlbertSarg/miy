@@ -3,7 +3,7 @@ from telebot import types
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
-TOKEN = "8531259676:AAG2gX9g0QL2WVoFW9LS8SzI9lcind6YZ1Y"
+TOKEN = ""
 bot = telebot.TeleBot(TOKEN)
 
 # ---------------- USER STATES ----------------
@@ -885,3 +885,4 @@ def my_requests(message):
 
 # ---------------- BOT POLLING ----------------
 bot.polling()
+
